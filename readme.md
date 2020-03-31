@@ -5,7 +5,7 @@ A command line utility to translate [Java ResourceBundle Properties Files](http:
 ## Install
 
 ```bash
-$ go get github.com/wmluke/translate
+$ go get github.com/stevewithington/translate
 ```
 
 ## Usage
