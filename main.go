@@ -49,7 +49,7 @@ func translate(key string, phrase string, source string, target string) (transla
 		"q": phrase,
 		"source": source,
 		"target": target,
-	}
+	}.AsUrlValues()
 
 	resp, err := napping.Get(apiUrl, &p, &res, nil)
 	if err != nil {
